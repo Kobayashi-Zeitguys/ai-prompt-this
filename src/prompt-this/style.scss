@@ -1,0 +1,28 @@
+/**
+ * Frontend styles for the AI PromptThis parent block.
+ */
+
+.wp-block-zp-ai-prompt-this {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: var(--wp--style--block-gap, 0);
+	align-items: center;
+	flex-wrap: wrap;
+
+	.wp-block-zp-ai-prompt-this-item a {
+		display: flex;
+		align-items: center;
+		gap: 0.5em;
+	}
+
+	.prompt-this-icon {
+		display: flex;
+		fill: currentcolor;
+
+		svg {
+			width: 1em;
+			height: 1em;
+		}
+	}
+}
