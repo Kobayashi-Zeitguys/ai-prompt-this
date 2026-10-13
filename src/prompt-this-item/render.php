@@ -9,6 +9,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Template-scope variables; file is included in WP_Block render scope.
+
 // Extract attributes with defaults.
 $platform        = $attributes['platform'] ?? array(
 	'key'      => 'chatgpt',
@@ -55,9 +57,6 @@ $deep_link = $base_url . rawurlencode( $prompt_text . ' ' . $current_url );
 $label     = ! empty( $custom_label ) ? $custom_label : $platform_name;
 $icon_only = $block->context['zp/ai-prompt-this/iconOnly'] ?? false;
 
-// Target attribute.
-$target = $open_in_new_tab ? ' target="_blank" rel="noopener noreferrer"' : '';
-
 $link_classes = 'platform-' . esc_attr( $platform_key );
 
 // Build block wrapper attributes for the <li>.
@@ -70,7 +69,7 @@ $wrapper_attributes = get_block_wrapper_attributes(
 ?>
 
 <li <?php echo $wrapper_attributes; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
-	<a class="<?php echo esc_attr( $link_classes ); ?>" href="<?php echo esc_url( $deep_link ); ?>"<?php echo $target; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
+	<a class="<?php echo esc_attr( $link_classes ); ?>" href="<?php echo esc_url( $deep_link ); ?>"<?php echo $open_in_new_tab ? ' target="_blank" rel="noopener noreferrer"' : ''; ?>>
 		<span class="prompt-this-icon" aria-hidden="true"<?php echo ! empty( $icon_color ) ? ' style="color:' . esc_attr( $icon_color ) . ';"' : ''; ?>>
 			<?php echo $platform_svg; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 		</span>

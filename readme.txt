@@ -1,8 +1,8 @@
 === AI PromptThis ===
 Contributors: Hector Jarquin, Tomas Llobet-Arany
-Tags: block, ai, chatgpt, claude, gemini, grok, perplexity, prompt, deep-link
+Tags: ai, chatgpt, claude, gemini, prompt
 Requires at least: 6.6
-Tested up to: 7.0.2
+Tested up to: 7.1
 Stable tag: 1.0.0
 Requires PHP: 8.1
 License: GPL-2.0-or-later

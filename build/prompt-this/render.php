@@ -9,6 +9,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound -- Template-scope variables; file is included in WP_Block render scope.
+
 // Strip the saved wrapper from $content — it includes the block's innerHTML
 // wrapper (<div> for old blocks, <ul> for new blocks).
 $inner_blocks_html = preg_replace(
