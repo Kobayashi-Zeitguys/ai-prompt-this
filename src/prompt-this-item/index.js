@@ -32,6 +32,7 @@ const icon = (
 			strokeWidth="0.395553"
 			strokeLinejoin="round"
 			stroke="#0066FF"
+			fill="none"
 			mask="url(#stroke1_1257_2)"
 		/>
 		<use xlinkHref="#stroke2_1257_2" fill="#0066FF" />
@@ -52,6 +53,7 @@ const icon = (
 			strokeWidth="0.395553"
 			strokeLinejoin="round"
 			stroke="#0066FF"
+			fill="none"
 			mask="url(#stroke3_1257_2)"
 		/>
 		<use xlinkHref="#stroke4_1257_2" fill="#0066FF" />
@@ -72,6 +74,7 @@ const icon = (
 			strokeWidth="0.507579"
 			strokeLinejoin="round"
 			stroke="#0066FF"
+			fill="none"
 			mask="url(#stroke5_1257_2)"
 		/>
 		<Path
@@ -83,6 +86,7 @@ const icon = (
 			strokeWidth="1.125"
 			strokeMiterlimit="10"
 			stroke="#0066FF"
+			fill="none"
 		/>
 		<Defs>
 			<Path id="stroke0_1257_2" d="M19.8738 6.30673C19.8738 7.77027 18.2783 8.35568 18.2783 8.35568C18.2783 8.35568 19.8738 8.94109 19.8738 10.4046C19.8738 8.94109 21.4692 8.35568 21.4692 8.35568C21.4692 8.35568 19.8738 7.77027 19.8738 6.30673Z" />
