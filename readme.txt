@@ -1,5 +1,5 @@
 === AI PromptThis ===
-Contributors: Hector Jarquin, Tomas Llobet-Arany
+Contributors: kobayashizeitguys
 Tags: ai, chatgpt, claude, gemini, prompt
 Requires at least: 6.6
 Tested up to: 7.1
