@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: French (Canada)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-04T22:21:03+00:00\n"
+"PO-Revision-Date: 2026-08-04 18:22-0400\n"
+"Language: fr_CA\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ai-prompt-this\n"
+
+#: build/prompt-this-item/index.js:1
+#: build/prompt-this-item/index.js:68
+msgctxt "Block prompt-this-item - panelcolorsettings title"
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: build/prompt-this-item/index.js:1
+#: build/prompt-this-item/index.js:74
+msgctxt "Block prompt-this-item - color setting label"
+msgid "Color"
+msgstr "Couleur"
+
+#: build/prompt-this-item/index.js:1
+#: build/prompt-this-item/index.js:78
+msgctxt "Block prompt-this-item - inspector panel title"
+msgid "Platform Settings"
+msgstr "Paramètres de la plateforme"
+
+#: build/prompt-this-item/index.js:1
+#: build/prompt-this-item/index.js:80
+msgctxt "Block prompt-this-item - selectcontrol label for AI platform"
+msgid "AI Platform"
+msgstr "Plateforme IA"
+
+#: build/prompt-this-item/index.js:1
+#: build/prompt-this-item/index.js:97
+msgctxt "Block prompt-this-item - textcontrol label for custom label"
+msgid "Custom Label"
+msgstr "Étiquette personnalisée"
+
+#: build/prompt-this-item/index.js:1
+#: build/prompt-this-item/index.js:102
+msgctxt "Block prompt-this-item - textcontrol help text for custom label"
+msgid "Leave empty to use the platform name."
+msgstr "Laisser vide pour utiliser le nom de la plateforme."
+
+#: build/prompt-this-item/index.js:1
+#: build/prompt-this-item/index.js:110
+msgctxt "Block prompt-this-item - textareacontrol label for custom prompt"
+msgid "Custom Prompt"
+msgstr "Invite personnalisée"
+
+#: build/prompt-this-item/index.js:1
+#: build/prompt-this-item/index.js:115
+msgctxt "Block prompt-this-item - textareacontrol help text for custom prompt"
+msgid "Leave empty to use the parent block's prompt text."
+msgstr "Laisser vide pour utiliser l'invite du bloc parent."
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:71
+msgctxt "Block prompt-this - panelcolorsettings title"
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:77
+msgctxt "Block prompt-this - color setting label"
+msgid "Color"
+msgstr "Couleur"
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:81
+msgctxt "Block prompt-this - inspector panel title"
+msgid "Prompt Settings"
+msgstr "Paramètres de l'invite"
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:84
+msgctxt "Block prompt-this - textareacontrol label for prompt text"
+msgid "Prompt Text"
+msgstr "Texte de l'invite"
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:89
+msgctxt "Block prompt-this - textareacontrol help text for prompt"
+msgid "This prompt will be sent to the AI platform along with the current page URL."
+msgstr "Cette invite sera envoyée à la plateforme IA avec l'URL de la page actuelle."
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:97
+msgctxt "Block prompt-this - inspector panel title"
+msgid "Display Settings"
+msgstr "Paramètres d'affichage"
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:100
+msgctxt "Block prompt-this - togglecontrol label for icon only mode"
+msgid "Icon only"
+msgstr "Icône seulement"
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:105
+msgctxt "Block prompt-this - togglecontrol help for icon only"
+msgid "Hide labels visually but keep them accessible to screen readers."
+msgstr "Masquer les étiquettes visuellement tout en les gardant accessibles aux lecteurs d'écran."
+
+#: build/prompt-this/index.js:1
+#: build/prompt-this/index.js:112
+msgctxt "Block prompt-this - togglecontrol label for new tab"
+msgid "Open in new tab"
+msgstr "Ouvrir dans un nouvel onglet"
+
+#: build/prompt-this-item/block.json
+msgctxt "block title"
+msgid "PromptThis Item"
+msgstr "Élément PromptThis"
+
+#: build/prompt-this-item/block.json
+msgctxt "block description"
+msgid "An individual AI platform link button."
+msgstr "Un bouton de lien individuel vers une plateforme IA."
+
+#: build/prompt-this-item/block.json
+#: build/prompt-this/block.json
+msgctxt "block keyword"
+msgid "ai"
+msgstr "ia"
+
+#: build/prompt-this-item/block.json
+#: build/prompt-this/block.json
+msgctxt "block keyword"
+msgid "prompt"
+msgstr "invite"
+
+#: build/prompt-this-item/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr "lien"
+
+#: build/prompt-this-item/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "bouton"
+
+#: build/prompt-this/block.json
+msgctxt "block title"
+msgid "AI PromptThis"
+msgstr "AI PromptThis"
+
+#: build/prompt-this/block.json
+msgctxt "block description"
+msgid "A container for AI prompt links that allows visitors to generate AI-powered responses about your content."
+msgstr "Un conteneur de liens d'invite IA qui permet aux visiteurs de générer des réponses propulsées par l'IA à propos de votre contenu."
+
+#: build/prompt-this/block.json
+msgctxt "block keyword"
+msgid "chatgpt"
+msgstr "chatgpt"
+
+#: build/prompt-this/block.json
+msgctxt "block keyword"
+msgid "perplexity"
+msgstr "perplexity"
+
+#: build/prompt-this/block.json
+msgctxt "block keyword"
+msgid "claude"
+msgstr "claude"
+
+#: build/prompt-this/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "liens"

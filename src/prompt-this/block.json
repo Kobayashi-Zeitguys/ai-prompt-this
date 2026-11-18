@@ -1,0 +1,72 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "zp/ai-prompt-this",
+	"version": "1.0.0",
+	"title": "AI PromptThis",
+	"category": "widgets",
+	"description": "A container for AI prompt links that allows visitors to generate AI-powered responses about your content.",
+	"keywords": [ "ai", "prompt", "chatgpt", "perplexity", "claude", "links" ],
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"color": {
+			"background": true,
+			"text": true,
+			"gradients": true
+		},
+		"typography": {
+			"fontSize": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true,
+			"blockGap": true,
+			"__experimentalDefaultControls": {
+				"padding": true,
+				"blockGap": true
+			}
+		},
+		"border": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"defaultControls": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			}
+		}
+	},
+	"providesContext": {
+		"zp/ai-prompt-this/promptText": "promptText",
+		"zp/ai-prompt-this/openInNewTab": "openInNewTab",
+		"zp/ai-prompt-this/iconColor": "iconColor",
+		"zp/ai-prompt-this/iconOnly": "iconOnly"
+	},
+	"attributes": {
+		"promptText": {
+			"type": "string",
+			"default": "Summarize this article"
+		},
+		"openInNewTab": {
+			"type": "boolean",
+			"default": true
+		},
+		"iconColor": {
+			"type": "string",
+			"default": ""
+		},
+		"iconOnly": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"textdomain": "ai-prompt-this",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

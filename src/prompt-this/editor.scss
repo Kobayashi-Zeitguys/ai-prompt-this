@@ -1,0 +1,15 @@
+/**
+ * Editor styles for the AI PromptThis parent block.
+ */
+
+.wp-block-zp-ai-prompt-this {
+
+	.block-editor-inner-blocks {
+
+		.block-editor-block-list__layout {
+			display: flex;
+			align-items: center;
+			gap: var(--wp--style--block-gap, 1em);
+		}
+	}
+}
