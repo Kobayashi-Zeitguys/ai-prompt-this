@@ -9,6 +9,9 @@
 .eslintrc
 .distignore
 
+# GitHub-facing docs (WordPress.org reads readme.txt instead).
+README.md
+
 # Dev dependencies and source (compiled assets in build/ ship instead).
 node_modules
 src

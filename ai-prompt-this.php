@@ -6,7 +6,7 @@
  * Version:           1.0.0
  * Requires at least: 6.6
  * Requires PHP:      8.1
- * Author:            Hector Jarquin, Tomas Llobet-Arany
+ * Author:            kobayashizeitguys
  * Author URI:        https://kobayashi.ca
  * License:           GPLv2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html

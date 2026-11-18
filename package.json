@@ -2,7 +2,7 @@
 	"name": "ai-prompt-this",
 	"version": "1.0.0",
 	"description": "AI PromptThis — deep-link buttons to send page content to AI platforms (ChatGPT, Claude, Gemini, Grok, Perplexity).",
-	"author": "Hector Jarquin, Tomas Llobet-Arany",
+	"author": "kobayashizeitguys",
 	"license": "GPL-2.0-or-later",
 	"scripts": {
 		"build": "wp-scripts build --webpack-copy-php",
