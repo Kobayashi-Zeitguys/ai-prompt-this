@@ -1,5 +1,5 @@
 === AI PromptThis ===
-Contributors: Hector Jarquin, Tomas Llobet-Arany
+Contributors: kobayashizeitguys
 Tags: ai, chatgpt, claude, gemini, prompt
 Requires at least: 6.6
 Tested up to: 7.1
@@ -31,6 +31,10 @@ Features:
 * Icon-only mode (hides labels visually while keeping them accessible to screen readers)
 * Open-in-new-tab toggle
 * Deep links with pre-loaded prompts
+
+== Source Code ==
+
+The source code and build tooling are developed in the open at https://github.com/Kobayashi-Zeitguys/ai-prompt-this. To build from source, run `npm install` followed by `npm run build`.
 
 == Installation ==
 
@@ -69,7 +73,7 @@ Some platforms generate responses automatically on arrival; others require the v
 == Changelog ==
 
 = 1.0.0 =
-* Initial standalone release, extracted from Zeitpress Suite.
+* Initial standalone release.
 * Parent block: AI PromptThis (container)
 * Child block: AI PromptThis Item (individual AI platform)
 * Support for ChatGPT, Claude, Gemini, Grok, and Perplexity
