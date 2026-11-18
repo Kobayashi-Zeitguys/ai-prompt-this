@@ -32,6 +32,10 @@ Features:
 * Open-in-new-tab toggle
 * Deep links with pre-loaded prompts
 
+== Source Code ==
+
+The source code and build tooling are developed in the open at https://github.com/Kobayashi-Zeitguys/ai-prompt-this. To build from source, run `npm install` followed by `npm run build`.
+
 == Installation ==
 
 1. Upload the plugin files to the `/wp-content/plugins/ai-prompt-this` directory, or install the plugin through the WordPress plugins screen directly.
@@ -69,7 +73,7 @@ Some platforms generate responses automatically on arrival; others require the v
 == Changelog ==
 
 = 1.0.0 =
-* Initial standalone release, extracted from Zeitpress Suite.
+* Initial standalone release.
 * Parent block: AI PromptThis (container)
 * Child block: AI PromptThis Item (individual AI platform)
 * Support for ChatGPT, Claude, Gemini, Grok, and Perplexity

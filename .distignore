@@ -1,0 +1,31 @@
+# Files and directories excluded from the production build.
+# Consumed by bin/stage.sh (rsync --exclude-from). Everything NOT listed here ships.
+
+# Version control and dev dotfiles.
+.git
+.gitignore
+.gitattributes
+.editorconfig
+.eslintrc
+.distignore
+
+# Dev dependencies and source (compiled assets in build/ ship instead).
+node_modules
+src
+package.json
+package-lock.json
+
+# Build tooling and output.
+bin
+dist
+releases
+.svn-wc
+
+# WordPress.org assets are SVN-only (copied to SVN /assets, never trunk/zip).
+assets
+
+# OS / editor cruft.
+.DS_Store
+*.log
+*.zip
+.env
